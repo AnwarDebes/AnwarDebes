@@ -103,7 +103,7 @@ A Graph Tsetlin Machine that **inherits BERT's attention edges** as its graph. B
 
 | | |
 |---|---|
-| 🖥️ **[vsclaude](https://github.com/AnwarDebes/vsclaude)** | A full IDE where Claude Code comes alive: 200 distinct animated agent behaviours |
+| 🖥️ **[vsclaude](https://github.com/AnwarDebes/vsclaude)** | A full IDE with an animated pixel-art AI coding companion: 200 distinct agent behaviours |
 | 📱 **[PocketOS](https://github.com/AnwarDebes/PocketOS)** | A whole desktop environment running in your phone browser, offline and installable |
 | 📚 **[Mneme](https://github.com/AnwarDebes/Mneme-Education-Ecosystem)** | Drop in a textbook PDF, get an Anki deck out. Runs locally, nothing leaves your machine |
 | 🔥 **[PyroPredict](https://github.com/AnwarDebes/PyroPredict)** | Wildfire spread forecasting that feeds evacuation planning |
