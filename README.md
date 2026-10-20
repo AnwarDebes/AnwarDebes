@@ -3,6 +3,7 @@
 <img src="assets/header.svg" width="100%" alt="Anwar Debes: interpretable AI, Tsetlin Machines and AI safety. A 3D glass box opens to show the logical clause behind each decision."/>
 
 <p>
+<a href="https://anwardebes.github.io"><img src="https://img.shields.io/badge/Website-anwardebes.github.io-22d3ee?style=for-the-badge" alt="Website: anwardebes.github.io"/></a>
 <a href="https://safemediai.com"><img src="https://img.shields.io/badge/SafeMediAI-CFO-7c3aed?style=for-the-badge" alt="CFO at SafeMediAI"/></a>
 <a href="https://declassifai.com"><img src="https://img.shields.io/badge/DeclassifAI-product-0ea5e9?style=for-the-badge" alt="DeclassifAI"/></a>
 <a href="https://cair.uia.no"><img src="https://img.shields.io/badge/MSc_AI-UiA_%C2%B7_CAIR-10b981?style=for-the-badge" alt="MSc in AI at UiA, CAIR"/></a>
@@ -10,6 +11,8 @@
 <a href="#papers-and-technical-reports"><img src="https://img.shields.io/badge/papers-20%2B_PDFs-ec4899?style=for-the-badge" alt="20+ papers and technical reports"/></a>
 <a href="https://github.com/AnwarDebes?tab=followers"><img src="https://img.shields.io/github/followers/AnwarDebes?label=follow&style=for-the-badge&logo=github&color=0f172a" alt="Follow on GitHub"/></a>
 </p>
+
+<sub><b><a href="https://anwardebes.github.io">Open the glass box in interactive 3D →</a></b></sub>
 
 <sub><a href="#about">About</a> &nbsp;·&nbsp; <a href="#research-map">Research map</a> &nbsp;·&nbsp; <a href="#selected-work">Selected work</a> &nbsp;·&nbsp; <a href="#papers-and-technical-reports">Papers</a> &nbsp;·&nbsp; <a href="#built-after-hours">Built after hours</a> &nbsp;·&nbsp; <a href="#frequently-avoided-questions">FAQ</a> &nbsp;·&nbsp; <a href="#activity">Activity</a></sub>
 
@@ -143,7 +146,7 @@ BERT lends its attention edges as the graph, then gets uninstalled. A Graph Tset
 
 Every PDF lives next to the code that produced its numbers.
 
-| | |
+| Project | Paper |
 |---|---|
 | [**CANDOR**](https://github.com/AnwarDebes/candor/blob/main/paper/candor.pdf) | The Explanation Is the Forward Pass: Interpretability by Construction with Certified Legible Bottlenecks |
 | [**TRACE**](https://github.com/AnwarDebes/trace/blob/main/paper/trace.pdf) | A Tsetlin Runtime Assurance and Certification Engine for Interpretable, Tamper-Evident Guardrails on Agentic AI |
@@ -160,7 +163,7 @@ Every PDF lives next to the code that produced its numbers.
 
 ## Built after hours
 
-| | |
+| Project | What it is |
 |---|---|
 | 🖥️ **[vsclaude](https://github.com/AnwarDebes/vsclaude)** | A native desktop IDE (Tauri, React, Rust) where Pixie, a pixel-art companion, acts out what your AI coding agent is really doing. House rule: the animation never lies. |
 | 📱 **[PocketOS](https://github.com/AnwarDebes/PocketOS)** | A whole desktop environment inside your phone's browser: windows, a virtual filesystem, a terminal and a code editor. Offline and installable. |
@@ -209,7 +212,7 @@ Fun fact: flight recorders are painted bright orange so they are easy to find. E
 <br/>
 
 ```text
-IF   you.like(interpretable_ai) ∧ you.value(honest_results) ∧ ¬you.trust(black_boxes)
+IF   you.like(interpretable_ai) ∧ ¬you.trust(black_boxes)
 THEN star(⭐) ∧ follow(@AnwarDebes)
 ```
 
