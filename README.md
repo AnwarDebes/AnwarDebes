@@ -9,6 +9,32 @@ I research Tsetlin Machines at [CAIR](https://cair.uia.no), University of Agder:
 
 Press the pins on [my website](https://anwardebes.github.io), try to sneak a prompt past [my guardrail](https://anwardebes.github.io/#demo), turn the [research map](https://anwardebes.github.io/universe/) in 3D, or open [a whole desktop in your browser](https://anwardebes.github.io/PocketOS/).
 
+## The short version, in 105 seconds
+
+https://github.com/user-attachments/assets/8c86c16c-4b77-4fdc-a26b-63c7903b61e3
+
+<sub>A wall of steel pins plays every scene, every word is written on screen the moment it is spoken, and the last frame is a QR code made of pins: scan it.</sub>
+
+<details>
+<summary><b>Read the transcript</b></summary>
+<br>
+
+> Most AI hands you an answer. Very little of it shows you why. Anwar Debes builds the kind that does.
+>
+> At the University of Agder, he researches Tsetlin Machines: models whose every decision is a set of logical clauses you can read, check, and argue with.
+>
+> His master's research, glassbox-lm, takes measured steps toward a language model you can read. Ninety-one hypotheses, written down before the runs. Every result reported as measured, including the ones that did not work.
+>
+> He builds AI you can check. VERITAS proves a guardrail's safety rules, or hands you the exact input that breaks one. TRACE catches an attack hidden in innocent steps, and signs a ledger anyone can verify. CANDOR puts a certificate on every answer a network gives.
+>
+> At NTNU, his bachelor team won the Eureka Prize for software that finds and removes sensitive content in images and documents. Today, he is CFO of SafeMediAI, the Norwegian startup behind DeclassifAI.
+>
+> Outside the lab, he builds game-playing agents, data warehouses, and apps that run entirely in your browser. Even his coding agent shows its work: Pixie acts out every step.
+>
+> One rule runs through all of it. If a system makes a claim, it should show its work. Anwar Debes.
+
+</details>
+
 ## Spotlight: Pixie, a coding agent you can watch work
 
 https://github.com/user-attachments/assets/d4fe63eb-93f0-4408-9867-dc253bb104a8
