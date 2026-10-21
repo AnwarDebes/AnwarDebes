@@ -5,9 +5,9 @@
   </picture>
 </a>
 
-I research Tsetlin Machines at [CAIR](https://cair.uia.no), University of Agder: models whose every decision is a set of logical clauses you can read, check and argue with. I am also CFO at [SafeMediAI](https://safemediai.com), and in 2025 my bachelor thesis team at NTNU won the [Eurekaprisen](https://nyheter.ntnu.no/disse-har-vunnet-eurekaprisen-2025/#:~:text=Automatic%20Removal%20of%20Sensitive%20Content,Yasin%20Hessnawi).
+I research Tsetlin Machines at [CAIR](https://cair.uia.no), University of Agder: models whose every decision is a set of logical clauses you can read, check and argue with. Outside the lab I build game-playing agents, data warehouses and apps that run entirely in your browser. I am also CFO at [SafeMediAI](https://safemediai.com), and in 2025 my bachelor thesis team at NTNU won the [Eurekaprisen](https://nyheter.ntnu.no/disse-har-vunnet-eurekaprisen-2025/#:~:text=Automatic%20Removal%20of%20Sensitive%20Content,Yasin%20Hessnawi).
 
-Press the pins on [my website](https://anwardebes.github.io), try to sneak a prompt past [my guardrail](https://anwardebes.github.io/#demo), or turn the [research map](https://anwardebes.github.io/universe/) in 3D.
+Press the pins on [my website](https://anwardebes.github.io), try to sneak a prompt past [my guardrail](https://anwardebes.github.io/#demo), turn the [research map](https://anwardebes.github.io/universe/) in 3D, or open [a whole desktop in your browser](https://anwardebes.github.io/PocketOS/).
 
 ## About
 
@@ -17,6 +17,7 @@ Press the pins on [my website](https://anwardebes.github.io), try to sneak a pro
 - Bachelor in computer engineering, cybersecurity and programming, from NTNU Gjøvik
 - CFO at [SafeMediAI](https://safemediai.com), the Norwegian startup behind [DeclassifAI](https://declassifai.com)
 - Open to research collaborations on AI that helps people and holds up to scrutiny
+- The short version of all this: [a one-page CV](https://anwardebes.github.io/cv/)
 
 The common thread is systems that show their work: clauses you can read, certificates anyone can re-check, and hypotheses registered before the runs, with results reported as measured, including the ones that did not work.
 
@@ -25,7 +26,7 @@ The common thread is systems that show their work: clauses you can read, certifi
 <a href="https://anwardebes.github.io/universe/">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/research-map-dark.svg">
-    <img src="assets/research-map.svg" width="100%" alt="A rotating 3D map of 39 public projects in seven research lines: language models, Graph Tsetlin Machines, safety and verification, interpretability, Tsetlin Machine foundations, climate and health simulators, and tools and products.">
+    <img src="assets/research-map.svg" width="100%" alt="A rotating 3D map of 40 public projects in seven research lines: language models, Graph Tsetlin Machines, safety and verification, interpretability, Tsetlin Machine foundations, climate and health simulators, and tools and products.">
   </picture>
 </a>
 
@@ -126,11 +127,102 @@ Recourse succeeds for **95.5%** (191 of 200) of positives. Its AUROC of 0.685 tr
 | [CCTM](https://github.com/AnwarDebes/CCTM) | Training on counterfactual pairs, with recourse receipts | demographic parity gap 0.041 against 0.181 (synthetic) |
 | [HGTM](https://github.com/AnwarDebes/HGTM) and [RGTM](https://github.com/AnwarDebes/RGTM) | Hierarchical and recurrent Graph Tsetlin Machines | alpha, negative results documented |
 | [lifelong-tm](https://github.com/AnwarDebes/lifelong-tm) | Continual learning for Tsetlin Machines | work in progress |
-| [tm-llm-robustness-benchmark](https://github.com/AnwarDebes/tm-llm-robustness-benchmark) | One robustness harness for Tsetlin Machines and transformers | honest negative: the TM loses 27 points on counterfactual IMDb, BERT loses 2 |
+| [tm-llm-robustness-benchmark](https://github.com/AnwarDebes/tm-llm-robustness-benchmark) | One robustness harness for Tsetlin Machines and transformers | negative result: the TM loses 27 points on counterfactual IMDb, BERT loses 2 |
 | [clauseguard](https://github.com/AnwarDebes/clauseguard), [clausegate](https://github.com/AnwarDebes/clausegate) and [clause86](https://github.com/AnwarDebes/clause86) | Clause-based audit layers for LLM claims, agent tool calls and hiring decisions | prototypes |
 | [tsetlin-zoo](https://github.com/AnwarDebes/tsetlin-zoo) | A survey of Boolean clause learners | survey draft |
 
 </details>
+
+## Beyond Tsetlin Machines
+
+<sub>Reinforcement learning, data engineering and apps you can open right now.</sub>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### [NEXUS](https://github.com/AnwarDebes/RL-CCA)
+<sub>Reinforcement learning for 2 to 6 players</sub>
+
+An AlphaZero-style agent for Chinese Checkers: a 7.5M-parameter convolution and transformer network, **Gumbel MCTS** within 0.45 s per move, and a rule-exact copy of the tournament server for self-play.
+
+Three research prototypes run on top: coalition-aware search with a Plackett-Luce rank value, per-component values mixed inside the tree, and a network exactly equivariant to board rotations and seat swaps. **324 tests** pass on every push.
+
+</td>
+<td width="50%" valign="top">
+
+### [PocketOS](https://github.com/AnwarDebes/PocketOS)
+<sub>[Live demo](https://anwardebes.github.io/PocketOS/), best on a phone</sub>
+
+A desktop that runs in a phone's browser: draggable, snapping windows, a virtual filesystem in IndexedDB, a terminal and a Monaco code editor, all on the client.
+
+Installable and offline. On a narrow screen apps open full screen with an app switcher; give it room and the windows come back.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [SleepArchitect](https://github.com/AnwarDebes/SleepArchitect)
+<sub>[Open the app](https://anwardebes.github.io/SleepArchitect/), with a [paper](https://github.com/AnwarDebes/SleepArchitect/blob/main/paper/sleeparchitect.pdf)</sub>
+
+Predicts tonight's sleep before you go to bed, from Borbély's two-process model plus caffeine, alcohol, exercise, light and meal timing, then ranks what to change.
+
+It reproduces all **11** published findings it was checked against. The whole app is 18.7 KB gzipped and sends nothing anywhere.
+
+</td>
+<td width="50%" valign="top">
+
+### [IDM](https://github.com/AnwarDebes/IDM)
+<sub>Data warehousing and streaming</sub>
+
+An epidemiological data warehouse built three ways on the same **473,189** weekly disease reports from 1916 to 2011: a PostgreSQL star schema, MongoDB buckets and a Neo4j graph, behind FastAPI and a React dashboard.
+
+Kafka and ksqlDB stream new reports in, validate them and raise alerts, and 13 decision-support queries run on all three back ends side by side.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [ThermoGuard](https://github.com/AnwarDebes/ThermoGuard)
+<sub>Public health, with a [technical report](https://github.com/AnwarDebes/ThermoGuard/blob/main/paper/thermoguard.pdf)</sub>
+
+Heatwave deaths happen indoors. ThermoGuard forecasts indoor heat home by home with a physics model of each building plus a learned correction, then decides who gets help first.
+
+In a simulated replay of the 2021 Pacific Northwest heatwave, an equity floor lifts the worst-covered group from **0% to 11%** coverage, at a cost in total lives saved that the report spells out.
+
+</td>
+<td width="50%" valign="top">
+
+### [Mneme](https://github.com/AnwarDebes/Mneme-Education-Ecosystem)
+<sub>Local-first learning tools</sub>
+
+Textbook in, Anki deck out, on a local model, so your notes never leave your machine. Every card says why it is easy or hard, optionally through a Tsetlin Machine.
+
+**156** tests pass without a GPU, Ollama or Anki. The quality benchmark has not been run yet, and the README says so.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [vsclaude](https://github.com/AnwarDebes/vsclaude)
+<sub>Developer tools, in beta</sub>
+
+A desktop IDE where you watch your AI coding agent work. Pixie, a pixel-art companion, acts out what the agent is really doing, and every animation is bound to a real event. Built with Tauri, React and TypeScript.
+
+</td>
+<td width="50%" valign="top">
+
+### Climate and health simulators
+<sub>Each with a technical report</sub>
+
+[PyroPredict](https://github.com/AnwarDebes/PyroPredict), [SmokeShield](https://github.com/AnwarDebes/SmokeShield), [PipeGuard](https://github.com/AnwarDebes/PipeGuard), [HotCarWatch](https://github.com/AnwarDebes/HotCarWatch), [HomeJoule](https://github.com/AnwarDebes/HomeJoule) and [CaffeineSense](https://github.com/AnwarDebes/CaffeineSense): physics-based models of wildfire, smoke, frozen pipes, hot cars, home energy and caffeine, most of them running right in your browser.
+
+</td>
+</tr>
+</table>
 
 ## Papers and technical reports
 
@@ -145,22 +237,11 @@ Every PDF lives next to the code that produced its numbers.
 | [**REINS**](https://github.com/AnwarDebes/reins/blob/main/paper/reins.pdf) | Model-Free, Certifying Least-Cost Repair of LLM-Agent Tool-Call Trajectories |
 | [**LUCID**](https://github.com/AnwarDebes/lucid/blob/main/paper/lucid.pdf) | A Glass-Box, Safety-Shielded Agent for Open-World Interactive Reasoning on ARC-AGI-3 |
 | [**DiTM**](https://github.com/AnwarDebes/DiTM/blob/main/paper/ditm.pdf) | A Discrete-Diffusion Tsetlin Machine for Interpretable Generative Modelling of Tabular Boolean Data |
-| [**Multi-HGTM**](https://github.com/AnwarDebes/Multi-HGTM/blob/main/paper/multihgtm.pdf) | A Multi-View Hierarchical Graph Tsetlin Machine |
+| [**Multi-HGTM**](https://github.com/AnwarDebes/Multi-HGTM/blob/main/paper/multihgtm.pdf) | Multi-HGTM: Cross-View Conjunctive Fusion for the Graph Tsetlin Machine |
 | [**ConfTM**](https://github.com/AnwarDebes/ConfTM/blob/main/paper/conftm.pdf), [**FedTM**](https://github.com/AnwarDebes/FedTM/blob/main/paper/fedtm.pdf), [**RobTM**](https://github.com/AnwarDebes/RobTM/blob/main/paper/robtm.pdf) and [**CCTM**](https://github.com/AnwarDebes/CCTM/blob/main/paper/cctm.pdf) | Conformal, federated, robust and counterfactual Tsetlin Machines |
 | [**Clause-Driven-LLM**](https://github.com/AnwarDebes/Clause-Driven-LLM/blob/main/paper/report.pdf) | An Interpretable Tsetlin Machine Control Layer for LLM Agent Routing and Escalation |
 
-<sub>Plus a technical report for each of the eight climate and health simulators below.</sub>
-
-## Built after hours
-
-| Project | What it is |
-|---|---|
-| **[vsclaude](https://github.com/AnwarDebes/vsclaude)** | A desktop IDE where you watch your AI coding agent work. Pixie, a pixel-art companion, acts out what the agent is really doing, and every animation is bound to a real event. |
-| **[PocketOS](https://github.com/AnwarDebes/PocketOS)** | A whole desktop environment inside your phone's browser: windows, a virtual filesystem, a terminal and a code editor. Offline and installable. |
-| **[Mneme](https://github.com/AnwarDebes/Mneme-Education-Ecosystem)** | Textbook in, Anki deck out. Runs on local models, so nothing leaves your machine. |
-| **[cookie-galaxy](https://github.com/AnwarDebes/cookie-galaxy)** | A scroll-driven Three.js storefront for a fictional cookie brand, where the hero cookie is a planet. |
-| **[NEXUS](https://github.com/AnwarDebes/RL-CCA)** | An AlphaZero-style Chinese Checkers agent with Gumbel MCTS and a conv-transformer network. |
-| **Climate and health** | [PyroPredict](https://github.com/AnwarDebes/PyroPredict), [ThermoGuard](https://github.com/AnwarDebes/ThermoGuard), [SmokeShield](https://github.com/AnwarDebes/SmokeShield), [PipeGuard](https://github.com/AnwarDebes/PipeGuard), [HotCarWatch](https://github.com/AnwarDebes/HotCarWatch), [HomeJoule](https://github.com/AnwarDebes/HomeJoule), [SleepArchitect](https://github.com/AnwarDebes/SleepArchitect) and [CaffeineSense](https://github.com/AnwarDebes/CaffeineSense): physics-based simulators, most of them running right in your browser, each with a technical report. |
+<sub>Plus a technical report for each of the eight climate and health simulators above, SleepArchitect and ThermoGuard included.</sub>
 
 ## Frequently avoided questions
 
@@ -193,7 +274,7 @@ Fun fact: flight recorders are painted bright orange so they are easy to find. E
 
 ## Toolbox
 
-Python, PyTorch, C++, Rust, TypeScript, React, Next.js, Tauri, Three.js, FastAPI, Docker, Linux, Git and PostgreSQL.
+Python, PyTorch, C++, Rust, TypeScript, React, Next.js, Tauri, Three.js, FastAPI, PostgreSQL, MongoDB, Neo4j, Kafka, Docker, Linux and Git.
 
 <br/>
 
