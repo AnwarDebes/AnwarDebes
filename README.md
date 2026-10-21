@@ -11,7 +11,7 @@ Press the pins on [my website](https://anwardebes.github.io), try to sneak a pro
 
 ## The short version, in 105 seconds
 
-https://github.com/user-attachments/assets/8a5d37ca-770b-4ab7-9a19-739b00e571e9
+https://github.com/user-attachments/assets/7569e430-c8dc-4c50-acdd-03e4f3cd2ba9
 
 <sub>A wall of steel pins plays every scene, every word is written on screen the moment it is spoken, and the last frame is a QR code made of pins: scan it.</sub>
 
