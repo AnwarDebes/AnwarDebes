@@ -1,49 +1,35 @@
-<div align="center">
+<a href="https://anwardebes.github.io">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
+    <img src="assets/banner-light.webp" width="100%" alt="Anwar Debes. AI that shows its work. A portrait of Anwar pressed into a board of steel pins.">
+  </picture>
+</a>
 
-<img src="assets/header.svg" width="100%" alt="Anwar Debes: interpretable AI, Tsetlin Machines and AI safety. A 3D glass box opens to show the logical clause behind each decision."/>
+I research Tsetlin Machines at [CAIR](https://cair.uia.no), University of Agder: models whose every decision is a set of logical clauses you can read, check and argue with. I am also CFO at [SafeMediAI](https://safemediai.com), and in 2025 my bachelor thesis team at NTNU won the [Eurekaprisen](https://nyheter.ntnu.no/disse-har-vunnet-eurekaprisen-2025/#:~:text=Automatic%20Removal%20of%20Sensitive%20Content,Yasin%20Hessnawi).
 
-<p>
-<a href="https://anwardebes.github.io"><img src="https://img.shields.io/badge/Website-anwardebes.github.io-22d3ee?style=for-the-badge" alt="Website: anwardebes.github.io"/></a>
-<a href="https://safemediai.com"><img src="https://img.shields.io/badge/SafeMediAI-CFO-7c3aed?style=for-the-badge" alt="CFO at SafeMediAI"/></a>
-<a href="https://declassifai.com"><img src="https://img.shields.io/badge/DeclassifAI-product-0ea5e9?style=for-the-badge" alt="DeclassifAI"/></a>
-<a href="https://cair.uia.no"><img src="https://img.shields.io/badge/MSc_AI-UiA_%C2%B7_CAIR-10b981?style=for-the-badge" alt="MSc in AI at UiA, CAIR"/></a>
-<a href="https://nyheter.ntnu.no/disse-har-vunnet-eurekaprisen-2025/#:~:text=Automatic%20Removal%20of%20Sensitive%20Content,Yasin%20Hessnawi"><img src="https://img.shields.io/badge/Eurekaprisen-2025-f59e0b?style=for-the-badge" alt="Eurekaprisen 2025, NTNU"/></a>
-<a href="#papers-and-technical-reports"><img src="https://img.shields.io/badge/papers-20%2B_PDFs-ec4899?style=for-the-badge" alt="20+ papers and technical reports"/></a>
-<a href="https://github.com/AnwarDebes?tab=followers"><img src="https://img.shields.io/github/followers/AnwarDebes?label=follow&style=for-the-badge&logo=github&color=0f172a" alt="Follow on GitHub"/></a>
-</p>
-
-<b><a href="https://anwardebes.github.io/universe/">🌌 Fly through my research in 3D</a></b> &nbsp;·&nbsp; <b><a href="https://anwardebes.github.io/tm/">🧠 Watch a Tsetlin Machine learn, live</a></b> &nbsp;·&nbsp; <b><a href="https://anwardebes.github.io">✨ Open the glass box</a></b>
-
-<sub><a href="#about">About</a> &nbsp;·&nbsp; <a href="#research-map">Research map</a> &nbsp;·&nbsp; <a href="#most-important-work">Most important work</a> &nbsp;·&nbsp; <a href="#papers-and-technical-reports">Papers</a> &nbsp;·&nbsp; <a href="#built-after-hours">Built after hours</a> &nbsp;·&nbsp; <a href="#frequently-avoided-questions">FAQ</a> &nbsp;·&nbsp; <a href="#activity">Activity</a></sub>
-
-</div>
+Press the pins on [my website](https://anwardebes.github.io), try to sneak a prompt past [my guardrail](https://anwardebes.github.io/#demo), or turn the [research map](https://anwardebes.github.io/universe/) in 3D.
 
 ## About
 
-Most AI today is a black box: it hands you an answer and asks for your trust. I work on the opposite. I build models whose decisions are made of **readable logic**, so anyone can open the box, see exactly why it decided what it decided, and check it.
+- Master's student in Artificial Intelligence at the University of Agder, researching under Ole-Christoffer Granmo, who introduced the Tsetlin Machine
+- Building [glassbox-lm](https://github.com/AnwarDebes/glassbox-lm): steps toward a language model whose knowledge is a set of readable clauses
+- [Eurekaprisen 2025](https://nyheter.ntnu.no/disse-har-vunnet-eurekaprisen-2025/#:~:text=Automatic%20Removal%20of%20Sensitive%20Content,Yasin%20Hessnawi) for the best bachelor thesis at the Faculty of Information Technology and Electrical Engineering, NTNU Gjøvik: [*Automatic Removal of Sensitive Content in Images and Documents for Efficient Archiving*](https://hdl.handle.net/11250/3203861), written with Rami Amer and Yasin Hessnawi for Mattilsynet
+- Bachelor in computer engineering, cybersecurity and programming, from NTNU Gjøvik
+- CFO at [SafeMediAI](https://safemediai.com), the Norwegian startup behind [DeclassifAI](https://declassifai.com)
+- Open to research collaborations on AI that helps people and holds up to scrutiny
 
-- 🎓 Master's student in Artificial Intelligence at the **University of Agder**, doing my research at [CAIR](https://cair.uia.no) under Ole-Christoffer Granmo, who introduced the Tsetlin Machine
-- 🔭 Currently building **[glassbox-lm](https://github.com/AnwarDebes/glassbox-lm)**: steps toward a language model whose knowledge is a set of logical clauses you can read
-- 🏆 **[Eurekaprisen 2025](https://nyheter.ntnu.no/disse-har-vunnet-eurekaprisen-2025/#:~:text=Automatic%20Removal%20of%20Sensitive%20Content,Yasin%20Hessnawi)** for the best bachelor thesis of the Faculty of Information Technology and Electrical Engineering at NTNU Gjøvik: [*Automatic Removal of Sensitive Content in Images and Documents for Efficient Archiving*](https://hdl.handle.net/11250/3203861), written with Rami Amer and Yasin Hessnawi. Our tool, Hide Me AI, was built for the needs of Mattilsynet.
-- 🔐 Bachelor in computer engineering (cybersecurity and programming) from **NTNU Gjøvik**
-- 🚀 CFO at **[SafeMediAI](https://safemediai.com)**, the Norwegian AI startup behind **[DeclassifAI](https://declassifai.com)**
-- 🤝 Open to collaborations on AI that helps people and holds up to scrutiny
-
-**The common thread is systems that show their work.** Clauses you can read. Certificates anyone can re-check. Hypotheses registered before the runs, and results reported as measured, including the ones that did not work. Even my IDE project follows the house rule: the animation never lies.
-
-<div align="center">
-
-| 60+ | 20+ | 20+ | 0 |
-|:---:|:---:|:---:|:---:|
-| public repositories | Tsetlin Machine projects | papers and reports (PDF) | black boxes |
-
-</div>
+The common thread is systems that show their work: clauses you can read, certificates anyone can re-check, and hypotheses registered before the runs, with results reported as measured, including the ones that did not work.
 
 ## Research map
 
-<a href="https://anwardebes.github.io/universe/"><img src="assets/research-map.svg" width="100%" alt="Rotating 3D map of 39 public projects in seven research lines: language models, Graph Tsetlin Machines, safety and verification, interpretability, Tsetlin Machine foundations, climate and health simulators, tools and products."/></a>
+<a href="https://anwardebes.github.io/universe/">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/research-map-dark.svg">
+    <img src="assets/research-map.svg" width="100%" alt="A rotating 3D map of 39 public projects in seven research lines: language models, Graph Tsetlin Machines, safety and verification, interpretability, Tsetlin Machine foundations, climate and health simulators, and tools and products.">
+  </picture>
+</a>
 
-<sub>Click it to fly through the real thing: orbit, search, and take the guided tour of the most important work.</sub>
+<sub>Click the map to open the interactive version, where you can turn it, search it and take a guided tour.</sub>
 
 ## Most important work
 
@@ -54,21 +40,21 @@ Most AI today is a black box: it hands you an answer and asks for your trust. I 
 <td width="50%" valign="top">
 
 ### [glassbox-lm](https://github.com/AnwarDebes/glassbox-lm)
-<sub>MASTER'S RESEARCH · ONGOING</sub>
+<sub>Master's research, ongoing</sub>
 
-Measured steps toward a language model whose knowledge is a set of readable Tsetlin Machine clauses. Three studies so far, **91 hypotheses registered before the runs** in the first one alone, and every result reported as measured.
+Measured steps toward a language model whose knowledge is a set of readable Tsetlin Machine clauses. Three studies so far, with **91 hypotheses registered before the runs** in the first one alone, and every result reported as measured.
 
-▸ The README leads with what did *not* work. On purpose.
+The README leads with what did *not* work. On purpose.
 
 </td>
 <td width="50%" valign="top">
 
 ### [CANDOR](https://github.com/AnwarDebes/candor)
-<sub>INTERPRETABILITY BY CONSTRUCTION · PAPER</sub>
+<sub>Interpretability by construction, with paper</sub>
 
 A Legible Bottleneck routes a layer's computation through named concepts and emits a **Faithfulness Certificate** on every forward pass, re-checkable by anyone.
 
-▸ On synthetic ground truth: δ ≈ 0.002 (99.9% agreement) with no measurable accuracy tax, and backdoor detection at AUC ≈ 0.90.
+On synthetic ground truth: δ ≈ 0.002 (99.9% agreement) with no measurable accuracy cost, and backdoor detection at AUC ≈ 0.90.
 
 </td>
 </tr>
@@ -76,21 +62,21 @@ A Legible Bottleneck routes a layer's computation through named concepts and emi
 <td width="50%" valign="top">
 
 ### [TRACE](https://github.com/AnwarDebes/trace)
-<sub>AI SAFETY · PAPER</sub>
+<sub>AI safety, with paper</sub>
 
-A CPU-only guardrail for AI agents: a Tsetlin content guard with readable clauses, bounded-memory temporal monitors, and a tamper-evident certificate ledger verifiable without the model.
+A CPU-only guardrail for AI agents: a Tsetlin content guard with readable clauses, bounded-memory temporal monitors, and a tamper-evident certificate ledger that can be verified without the model.
 
-▸ F1 **0.827** on deepset/prompt-injections at **107 µs** per check, in 12.5 KiB.
+F1 **0.827** on deepset/prompt-injections at **107 µs** per check, in 12.5 KiB. [Try to fool it in your browser](https://anwardebes.github.io/#demo).
 
 </td>
 <td width="50%" valign="top">
 
 ### [VERITAS](https://github.com/AnwarDebes/veritas)
-<sub>FORMAL VERIFICATION · PAPER</sub>
+<sub>Formal verification, with paper</sub>
 
-An interpretable guardrail whose declared safety properties are proved or refuted by SAT/SMT solvers, with bypasses repaired by construction.
+An interpretable guardrail whose declared safety properties are proved or refuted by SAT and SMT solvers, with bypasses repaired by construction.
 
-▸ Retraining stalls at 8 provable bypasses; constructive repair reaches **0** while accuracy goes 0.69 → 0.71.
+Retraining stalls at 8 provable bypasses. Constructive repair reaches **0** while accuracy goes from 0.69 to 0.71.
 
 </td>
 </tr>
@@ -98,50 +84,50 @@ An interpretable guardrail whose declared safety properties are proved or refute
 <td width="50%" valign="top">
 
 ### [LUCID](https://github.com/AnwarDebes/lucid)
-<sub>ARC-AGI-3 · PAPER</sub>
+<sub>ARC-AGI-3, with paper</sub>
 
-A glass-box, safety-shielded agent for ARC-AGI-3, with a readable world model and a decision trace for every step. CPU only.
+A glass-box, safety-shielded agent for ARC-AGI-3, with a readable world model and a decision trace for every step. It runs on a CPU.
 
-▸ Completes **2** public levels (VC33, LP85). Its overall score sits in the same sub-1% regime as frontier models, and the README says so.
+It completes **2** public levels (VC33 and LP85). Its overall score sits in the same sub-1% range as frontier models, and the README says so.
 
 </td>
 <td width="50%" valign="top">
 
 ### [graphtm-cbr](https://github.com/AnwarDebes/graphtm-cbr)
-<sub>CHEMINFORMATICS · RECOURSE</sub>
+<sub>Cheminformatics and recourse</sub>
 
-A graph-walking Tsetlin Machine for Ames mutagenicity that explains each prediction and proposes a minimal valid molecule edit.
+A graph-walking Tsetlin Machine for Ames mutagenicity that explains each prediction and proposes a minimal valid edit to the molecule.
 
-▸ Recourse succeeds for **95.5%** (191/200) of positives. Its AUROC (0.685) trails a fingerprint baseline, reported anyway.
+Recourse succeeds for **95.5%** (191 of 200) of positives. Its AUROC of 0.685 trails a fingerprint baseline, and is reported anyway.
 
 </td>
 </tr>
 </table>
 
-**The safety stack:** [THGTM](https://github.com/AnwarDebes/THGTM) learns, [TRACE](https://github.com/AnwarDebes/trace) detects and certifies, [REINS](https://github.com/AnwarDebes/reins) enforces, [VERITAS](https://github.com/AnwarDebes/veritas) verifies.
+**The safety stack:** [THGTM](https://github.com/AnwarDebes/THGTM) learns, [TRACE](https://github.com/AnwarDebes/trace) detects and certifies, [REINS](https://github.com/AnwarDebes/reins) enforces, and [VERITAS](https://github.com/AnwarDebes/veritas) verifies.
 
 <details>
-<summary><b>All Tsetlin Machine work</b> (click to expand)</summary>
+<summary><b>All Tsetlin Machine work</b></summary>
 <br/>
 
 | Project | What it does | Measured |
 |---|---|---|
-| [DiTM](https://github.com/AnwarDebes/DiTM) | Generative Tsetlin Machine: discrete diffusion over Boolean vectors, readable at every step | anomaly ROC AUC 0.677 vs 0.580 for naive Bayes |
+| [DiTM](https://github.com/AnwarDebes/DiTM) | Generative Tsetlin Machine: discrete diffusion over Boolean vectors, readable at every step | anomaly ROC AUC 0.677 against 0.580 for naive Bayes |
 | [REINS](https://github.com/AnwarDebes/reins) | Least-cost repair of AI agent tool calls under temporal safety policies | 3× the task completion of blocking at the same safety (synthetic) |
 | [Clause-Driven-LLM](https://github.com/AnwarDebes/Clause-Driven-LLM) | Clause-based routing for LLM agents with SAT-checkable receipts | 94.2% on CLINC150 (logistic regression: 95.6%) |
 | [THGTM](https://github.com/AnwarDebes/THGTM) | Echo-Trace automata and temporal literals for verifying whole agent trajectories | slow-roll exfiltration (synthetic): attack success 0.687 per step, 0.000 per trajectory |
-| [attention-distilled-graphtm](https://github.com/AnwarDebes/attention-distilled-graphtm) | BERT attention edges as the graph, Boolean clauses on top | 94.77% mean on R8 (BERT teacher ~98%) |
-| [Multi-HGTM](https://github.com/AnwarDebes/Multi-HGTM) | Multi-view Graph Tsetlin Machine with clause fusion | 0.968 vs 0.727 for late fusion (synthetic) |
+| [attention-distilled-graphtm](https://github.com/AnwarDebes/attention-distilled-graphtm) | BERT attention edges as the graph, Boolean clauses on top | 94.77% mean on R8 (BERT teacher about 98%) |
+| [Multi-HGTM](https://github.com/AnwarDebes/Multi-HGTM) | Multi-view Graph Tsetlin Machine with clause fusion | 0.968 against 0.727 for late fusion (synthetic) |
 | [subword-dep-graphtm](https://github.com/AnwarDebes/subword-dep-graphtm) | Subword and dependency graphs for text classification | 95.05% mean on R8 |
 | [decoder-attention-distill-graphtm](https://github.com/AnwarDebes/decoder-attention-distill-graphtm) | Decoder LLM attention as graph structure | 94.53% mean on R8 (work in progress) |
 | [ConfTM](https://github.com/AnwarDebes/ConfTM) | Conformal prediction sets and recourse for Tsetlin Machines | coverage 0.900 at a 0.9 target under drift (synthetic) |
 | [FedTM](https://github.com/AnwarDebes/FedTM) | Federated Tsetlin Machine with differential privacy | 0.875 accuracy at ε = 4 (synthetic) |
-| [RobTM](https://github.com/AnwarDebes/RobTM) | Certified flip-distance robustness and abstention | certificate in ~0.05 ms per sample |
-| [CCTM](https://github.com/AnwarDebes/CCTM) | Training on counterfactual pairs, with recourse receipts | demographic parity gap 0.041 vs 0.181 (synthetic) |
-| [HGTM](https://github.com/AnwarDebes/HGTM) · [RGTM](https://github.com/AnwarDebes/RGTM) | Hierarchical and recurrent Graph Tsetlin Machines | alpha, negative results documented |
+| [RobTM](https://github.com/AnwarDebes/RobTM) | Certified flip-distance robustness and abstention | certificate in about 0.05 ms per sample |
+| [CCTM](https://github.com/AnwarDebes/CCTM) | Training on counterfactual pairs, with recourse receipts | demographic parity gap 0.041 against 0.181 (synthetic) |
+| [HGTM](https://github.com/AnwarDebes/HGTM) and [RGTM](https://github.com/AnwarDebes/RGTM) | Hierarchical and recurrent Graph Tsetlin Machines | alpha, negative results documented |
 | [lifelong-tm](https://github.com/AnwarDebes/lifelong-tm) | Continual learning for Tsetlin Machines | work in progress |
 | [tm-llm-robustness-benchmark](https://github.com/AnwarDebes/tm-llm-robustness-benchmark) | One robustness harness for Tsetlin Machines and transformers | honest negative: the TM loses 27 points on counterfactual IMDb, BERT loses 2 |
-| [clauseguard](https://github.com/AnwarDebes/clauseguard) · [clausegate](https://github.com/AnwarDebes/clausegate) · [clause86](https://github.com/AnwarDebes/clause86) | Clause-based audit layers for LLM claims, agent tool calls and hiring decisions | prototypes |
+| [clauseguard](https://github.com/AnwarDebes/clauseguard), [clausegate](https://github.com/AnwarDebes/clausegate) and [clause86](https://github.com/AnwarDebes/clause86) | Clause-based audit layers for LLM claims, agent tool calls and hiring decisions | prototypes |
 | [tsetlin-zoo](https://github.com/AnwarDebes/tsetlin-zoo) | A survey of Boolean clause learners | survey draft |
 
 </details>
@@ -160,7 +146,7 @@ Every PDF lives next to the code that produced its numbers.
 | [**LUCID**](https://github.com/AnwarDebes/lucid/blob/main/paper/lucid.pdf) | A Glass-Box, Safety-Shielded Agent for Open-World Interactive Reasoning on ARC-AGI-3 |
 | [**DiTM**](https://github.com/AnwarDebes/DiTM/blob/main/paper/ditm.pdf) | A Discrete-Diffusion Tsetlin Machine for Interpretable Generative Modelling of Tabular Boolean Data |
 | [**Multi-HGTM**](https://github.com/AnwarDebes/Multi-HGTM/blob/main/paper/multihgtm.pdf) | A Multi-View Hierarchical Graph Tsetlin Machine |
-| [**ConfTM**](https://github.com/AnwarDebes/ConfTM/blob/main/paper/conftm.pdf) · [**FedTM**](https://github.com/AnwarDebes/FedTM/blob/main/paper/fedtm.pdf) · [**RobTM**](https://github.com/AnwarDebes/RobTM/blob/main/paper/robtm.pdf) · [**CCTM**](https://github.com/AnwarDebes/CCTM/blob/main/paper/cctm.pdf) | Conformal, federated, robust and counterfactual Tsetlin Machines |
+| [**ConfTM**](https://github.com/AnwarDebes/ConfTM/blob/main/paper/conftm.pdf), [**FedTM**](https://github.com/AnwarDebes/FedTM/blob/main/paper/fedtm.pdf), [**RobTM**](https://github.com/AnwarDebes/RobTM/blob/main/paper/robtm.pdf) and [**CCTM**](https://github.com/AnwarDebes/CCTM/blob/main/paper/cctm.pdf) | Conformal, federated, robust and counterfactual Tsetlin Machines |
 | [**Clause-Driven-LLM**](https://github.com/AnwarDebes/Clause-Driven-LLM/blob/main/paper/report.pdf) | An Interpretable Tsetlin Machine Control Layer for LLM Agent Routing and Escalation |
 
 <sub>Plus a technical report for each of the eight climate and health simulators below.</sub>
@@ -169,17 +155,17 @@ Every PDF lives next to the code that produced its numbers.
 
 | Project | What it is |
 |---|---|
-| 🖥️ **[vsclaude](https://github.com/AnwarDebes/vsclaude)** | A native desktop IDE (Tauri, React, Rust) where Pixie, a pixel-art companion, acts out what your AI coding agent is really doing. House rule: the animation never lies. |
-| 📱 **[PocketOS](https://github.com/AnwarDebes/PocketOS)** | A whole desktop environment inside your phone's browser: windows, a virtual filesystem, a terminal and a code editor. Offline and installable. |
-| 📚 **[Mneme](https://github.com/AnwarDebes/Mneme-Education-Ecosystem)** | Textbook in, Anki deck out. Runs on local models, so nothing leaves your machine. |
-| 🍪 **[cookie-galaxy](https://github.com/AnwarDebes/cookie-galaxy)** | A scroll-driven Three.js storefront for a fictional cookie brand, where the hero cookie is a planet. |
-| ♟️ **[NEXUS](https://github.com/AnwarDebes/RL-CCA)** | An AlphaZero-style Chinese Checkers agent with Gumbel MCTS and a conv-transformer network. |
-| 🌍 **Climate and health** | [PyroPredict](https://github.com/AnwarDebes/PyroPredict) · [ThermoGuard](https://github.com/AnwarDebes/ThermoGuard) · [SmokeShield](https://github.com/AnwarDebes/SmokeShield) · [PipeGuard](https://github.com/AnwarDebes/PipeGuard) · [HotCarWatch](https://github.com/AnwarDebes/HotCarWatch) · [HomeJoule](https://github.com/AnwarDebes/HomeJoule) · [SleepArchitect](https://github.com/AnwarDebes/SleepArchitect) · [CaffeineSense](https://github.com/AnwarDebes/CaffeineSense): physics-based simulators, most of them running right in your browser, each with a technical report. |
+| **[vsclaude](https://github.com/AnwarDebes/vsclaude)** | A desktop IDE where you watch your AI coding agent work. Pixie, a pixel-art companion, acts out what the agent is really doing, and every animation is bound to a real event. |
+| **[PocketOS](https://github.com/AnwarDebes/PocketOS)** | A whole desktop environment inside your phone's browser: windows, a virtual filesystem, a terminal and a code editor. Offline and installable. |
+| **[Mneme](https://github.com/AnwarDebes/Mneme-Education-Ecosystem)** | Textbook in, Anki deck out. Runs on local models, so nothing leaves your machine. |
+| **[cookie-galaxy](https://github.com/AnwarDebes/cookie-galaxy)** | A scroll-driven Three.js storefront for a fictional cookie brand, where the hero cookie is a planet. |
+| **[NEXUS](https://github.com/AnwarDebes/RL-CCA)** | An AlphaZero-style Chinese Checkers agent with Gumbel MCTS and a conv-transformer network. |
+| **Climate and health** | [PyroPredict](https://github.com/AnwarDebes/PyroPredict), [ThermoGuard](https://github.com/AnwarDebes/ThermoGuard), [SmokeShield](https://github.com/AnwarDebes/SmokeShield), [PipeGuard](https://github.com/AnwarDebes/PipeGuard), [HotCarWatch](https://github.com/AnwarDebes/HotCarWatch), [HomeJoule](https://github.com/AnwarDebes/HomeJoule), [SleepArchitect](https://github.com/AnwarDebes/SleepArchitect) and [CaffeineSense](https://github.com/AnwarDebes/CaffeineSense): physics-based simulators, most of them running right in your browser, each with a technical report. |
 
 ## Frequently avoided questions
 
 **What is a Tsetlin Machine?**<br/>
-A learning algorithm built from teams of tiny automata that decide which inputs belong in logical AND-clauses. The clauses then vote. Think of it as a parliament of very small, very honest robots: every decision comes with the clauses that voted for it.
+A learning algorithm built from teams of tiny automata that decide which inputs belong in logical AND-clauses. The clauses then vote, and every decision comes with the clauses that voted for it.
 
 **Why not just use a neural network?**<br/>
 Sometimes I do. Then I distill what it learned into clauses and let it go. BERT once lent me its attention for a project; afterwards it was politely uninstalled.
@@ -195,33 +181,20 @@ Fun fact: flight recorders are painted bright orange so they are easy to find. E
 
 ## Activity
 
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/AnwarDebes/AnwarDebes/output/contrib-3d.svg" width="100%" alt="3D contribution calendar"/>
-
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AnwarDebes/AnwarDebes/output/snake-dark.svg"/>
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AnwarDebes/AnwarDebes/output/snake.svg"/>
-  <img alt="A snake eating the contribution graph" src="https://raw.githubusercontent.com/AnwarDebes/AnwarDebes/output/snake.svg"/>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AnwarDebes/AnwarDebes/output/contrib-3d-dark.svg">
+  <img src="https://raw.githubusercontent.com/AnwarDebes/AnwarDebes/output/contrib-3d.svg" width="100%" alt="3D contribution calendar">
 </picture>
 
-</div>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AnwarDebes/AnwarDebes/output/snake-dark.svg">
+  <img src="https://raw.githubusercontent.com/AnwarDebes/AnwarDebes/output/snake.svg" width="100%" alt="A snake eating the contribution graph">
+</picture>
 
 ## Toolbox
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=py,pytorch,cpp,rust,ts,react,nextjs,tauri,threejs,fastapi,docker,linux,git,postgres&perline=14" alt="Python, PyTorch, C++, Rust, TypeScript, React, Next.js, Tauri, Three.js, FastAPI, Docker, Linux, Git, PostgreSQL"/>
-</p>
+Python, PyTorch, C++, Rust, TypeScript, React, Next.js, Tauri, Three.js, FastAPI, Docker, Linux, Git and PostgreSQL.
 
 <br/>
 
-```text
-IF   you.like(interpretable_ai) ∧ ¬you.trust(black_boxes)
-THEN star(⭐) ∧ follow(@AnwarDebes)
-```
-
-<div align="center">
-
-<sub>You scrolled all the way down. That is either dedication or a very long README. Thank you either way.</sub>
-
-</div>
+<sub>Thanks for reading this far. If one of these projects is useful to you, a star helps other people find it.</sub>
