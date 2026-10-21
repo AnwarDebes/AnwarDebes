@@ -9,6 +9,12 @@ I research Tsetlin Machines at [CAIR](https://cair.uia.no), University of Agder:
 
 Press the pins on [my website](https://anwardebes.github.io), try to sneak a prompt past [my guardrail](https://anwardebes.github.io/#demo), turn the [research map](https://anwardebes.github.io/universe/) in 3D, or open [a whole desktop in your browser](https://anwardebes.github.io/PocketOS/).
 
+## Spotlight: Pixie, a coding agent you can watch work
+
+https://github.com/user-attachments/assets/d4fe63eb-93f0-4408-9867-dc253bb104a8
+
+**[Claude Code, in motion](https://github.com/AnwarDebes/Claude-Code-In-Motion)** is my open-source coding agent for any model. Instead of a spinner, Pixie, a coral pixel creature, acts out every step: reading, searching, editing, running the tests. Nothing is edited or run until you say yes, it has zero runtime dependencies, and it runs on your own key. [Try the live demo](https://anwardebes.github.io/Claude-Code-In-Motion/) right in your browser, or install it with `npm i -g github:AnwarDebes/Claude-Code-In-Motion`.
+
 ## About
 
 - Master's student in Artificial Intelligence at the University of Agder, researching under Ole-Christoffer Granmo, who introduced the Tsetlin Machine
@@ -210,7 +216,7 @@ Textbook in, Anki deck out, on a local model, so your notes never leave your mac
 ### [vsclaude](https://github.com/AnwarDebes/vsclaude)
 <sub>Developer tools, in beta</sub>
 
-A desktop IDE where you watch your AI coding agent work. Pixie, a pixel-art companion, acts out what the agent is really doing, and every animation is bound to a real event. Built with Tauri, React and TypeScript.
+A desktop IDE where you watch your AI coding agent work. Pixie, a pixel-art companion, acts out what the agent is really doing, and every animation is bound to a real event. Built with Tauri, React and TypeScript. Pixie also runs on its own, in the browser, as [Claude Code, in motion](https://github.com/AnwarDebes/Claude-Code-In-Motion).
 
 </td>
 <td width="50%" valign="top">
