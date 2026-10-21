@@ -15,6 +15,49 @@ https://github.com/user-attachments/assets/d4fe63eb-93f0-4408-9867-dc253bb104a8
 
 **[Claude Code, in motion](https://github.com/AnwarDebes/Claude-Code-In-Motion)** is my open-source coding agent for any model. Instead of a spinner, Pixie, a coral pixel creature, acts out every step: reading, searching, editing, running the tests. Nothing is edited or run until you say yes, it has zero runtime dependencies, and it runs on your own key. [Try the live demo](https://anwardebes.github.io/Claude-Code-In-Motion/) right in your browser, or install it with `npm i -g github:AnwarDebes/Claude-Code-In-Motion`.
 
+## Research you can run
+
+<sub>Four projects as live demos. Each runs the actual method in your browser tab and is tested against the project's own code or an independent checker, and each has a film under a minute long.</sub>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+<a href="https://anwardebes.github.io/veritas/"><img src="assets/film-veritas.jpg" width="100%" alt="VERITAS: formal verification for AI guardrails"></a>
+
+**[VERITAS](https://anwardebes.github.io/veritas/)**: a SAT solver in your tab checks a prompt-injection guard against every possible input, finds a bypass, repairs it and hands you a proof that a standard checker accepts.<br>
+<sub>[Open it live](https://anwardebes.github.io/veritas/) · [Watch the film](https://github.com/AnwarDebes/veritas#live-prover) · [Code and paper](https://github.com/AnwarDebes/veritas)</sub>
+
+</td>
+<td width="50%" valign="top">
+
+<a href="https://anwardebes.github.io/trace/"><img src="assets/film-trace.jpg" width="100%" alt="TRACE: a certifying runtime guardrail for AI agents"></a>
+
+**[TRACE](https://anwardebes.github.io/trace/)**: every tool call looks innocent and the session is not. Monitors with a few hundred bytes of memory catch it, and a signed ledger shows any edit.<br>
+<sub>[Open it live](https://anwardebes.github.io/trace/) · [Watch the film](https://github.com/AnwarDebes/trace#live-demo) · [Code and paper](https://github.com/AnwarDebes/trace)</sub>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<a href="https://anwardebes.github.io/candor/"><img src="assets/film-candor.jpg" width="100%" alt="CANDOR: interpretability by construction"></a>
+
+**[CANDOR](https://anwardebes.github.io/candor/)**: a trained network that reads its input through named concepts and certifies every answer. Switch a concept off or plant a backdoor, and watch the certificate respond.<br>
+<sub>[Open it live](https://anwardebes.github.io/candor/) · [Watch the film](https://github.com/AnwarDebes/candor#the-glass-box) · [Code and paper](https://github.com/AnwarDebes/candor)</sub>
+
+</td>
+<td width="50%" valign="top">
+
+<a href="https://anwardebes.github.io/glassbox-lm/"><img src="assets/film-glassbox.jpg" width="100%" alt="glassbox-lm: measured steps toward a language model you can read"></a>
+
+**[glassbox-lm](https://anwardebes.github.io/glassbox-lm/)**: ten public-domain books counted in your tab. Every next word is a sum of clause votes you can read, each traced to the page it was counted on.<br>
+<sub>[Open it live](https://anwardebes.github.io/glassbox-lm/) · [Watch the film](https://github.com/AnwarDebes/glassbox-lm#the-glass-box) · [Code and studies](https://github.com/AnwarDebes/glassbox-lm)</sub>
+
+</td>
+</tr>
+</table>
+
 ## About
 
 - Master's student in Artificial Intelligence at the University of Agder, researching under Ole-Christoffer Granmo, who introduced the Tsetlin Machine
@@ -51,7 +94,7 @@ The common thread is systems that show their work: clauses you can read, certifi
 
 Measured steps toward a language model whose knowledge is a set of readable Tsetlin Machine clauses. Three studies so far, with **91 hypotheses registered before the runs** in the first one alone, and every result reported as measured.
 
-The README leads with what did *not* work. On purpose.
+The README leads with what did *not* work. On purpose. [Read every vote of its count floor in your browser](https://anwardebes.github.io/glassbox-lm/).
 
 </td>
 <td width="50%" valign="top">
@@ -61,7 +104,7 @@ The README leads with what did *not* work. On purpose.
 
 A Legible Bottleneck routes a layer's computation through named concepts and emits a **Faithfulness Certificate** on every forward pass, re-checkable by anyone.
 
-On synthetic ground truth: δ ≈ 0.002 (99.9% agreement) with no measurable accuracy cost, and backdoor detection at AUC ≈ 0.90.
+On synthetic ground truth: δ ≈ 0.002 (99.9% agreement) with no measurable accuracy cost, and backdoor detection at AUC ≈ 0.90. [Open the glass box in your browser](https://anwardebes.github.io/candor/).
 
 </td>
 </tr>
@@ -73,7 +116,7 @@ On synthetic ground truth: δ ≈ 0.002 (99.9% agreement) with no measurable acc
 
 A CPU-only guardrail for AI agents: a Tsetlin content guard with readable clauses, bounded-memory temporal monitors, and a tamper-evident certificate ledger that can be verified without the model.
 
-F1 **0.827** on deepset/prompt-injections at **107 µs** per check, in 12.5 KiB. [Try to fool it in your browser](https://anwardebes.github.io/#demo).
+F1 **0.827** on deepset/prompt-injections at **107 µs** per check, in 12.5 KiB. [Try to fool it](https://anwardebes.github.io/#demo), or [watch it catch a session](https://anwardebes.github.io/trace/), in your browser.
 
 </td>
 <td width="50%" valign="top">
@@ -83,7 +126,7 @@ F1 **0.827** on deepset/prompt-injections at **107 µs** per check, in 12.5 KiB.
 
 An interpretable guardrail whose declared safety properties are proved or refuted by SAT and SMT solvers, with bypasses repaired by construction.
 
-Retraining stalls at 8 provable bypasses. Constructive repair reaches **0** while accuracy goes from 0.69 to 0.71.
+Retraining stalls at 8 provable bypasses. Constructive repair reaches **0** while accuracy goes from 0.69 to 0.71. [Watch it prove the guard in your browser](https://anwardebes.github.io/veritas/).
 
 </td>
 </tr>
