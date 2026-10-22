@@ -1,7 +1,9 @@
 <a href="https://anwardebes.github.io">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
-    <img src="assets/banner-light.webp" width="100%" alt="Anwar Debes. AI that shows its work. A portrait of Anwar pressed into a board of steel pins.">
+    <source media="(prefers-color-scheme: dark) and (prefers-reduced-motion: reduce)" srcset="assets/banner-dark.webp">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark-live.webp">
+    <source media="(prefers-reduced-motion: reduce)" srcset="assets/banner-light.webp">
+    <img src="assets/banner-light-live.webp" width="100%" alt="Anwar Debes. AI that shows its work. A portrait of Anwar pressed into a board of steel pins, with a hand passing behind the pins and a ripple running across them.">
   </picture>
 </a>
 
