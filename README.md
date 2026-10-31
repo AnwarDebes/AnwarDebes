@@ -37,6 +37,13 @@ https://github.com/user-attachments/assets/7569e430-c8dc-4c50-acdd-03e4f3cd2ba9
 
 </details>
 
+## The long version, in 49 minutes
+
+<a href="https://github.com/AnwarDebes/anwar-debes-film"><img src="assets/film-long.jpg" width="100%" alt="Show Its Work: the title card, set in a wall of steel pins, with Pixie in the corner."></a>
+
+**[Show Its Work](https://github.com/AnwarDebes/anwar-debes-film)** walks through all 66 of my repositories in fourteen chapters, with Pixie as the guide. Every number on screen carries the repository, file and line it came from, and in the last chapter the film checks its own sources: [541 of them, hash-chained](https://anwardebes.github.io/ledger/), rebuilt from fresh clones by one command.<br>
+<sub>[Watch it](https://github.com/AnwarDebes/anwar-debes-film/releases/latest) · [Chapters](https://github.com/AnwarDebes/anwar-debes-film#chapters) · [The ledger](https://anwardebes.github.io/ledger/)</sub>
+
 ## Spotlight: Pixie, a coding agent you can watch work
 
 https://github.com/user-attachments/assets/d4fe63eb-93f0-4408-9867-dc253bb104a8
