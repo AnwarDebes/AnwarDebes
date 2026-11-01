@@ -10,7 +10,7 @@
 <p>
   <a href="https://www.youtube.com/@anwardebes"><img alt="YouTube: @anwardebes" src="https://img.shields.io/badge/YouTube-%40anwardebes-FF0000?style=for-the-badge&logo=youtube&logoColor=white"></a>
   <a href="https://www.tiktok.com/@anwardebes"><img alt="TikTok: @anwardebes" src="https://img.shields.io/badge/TikTok-%40anwardebes-000000?style=for-the-badge&logo=tiktok&logoColor=white"></a>
-  <a href="https://youtu.be/AAQG61EsGcM"><img alt="Watch Show Its Work, the 49-minute film, on YouTube" src="https://img.shields.io/badge/Watch-Show%20Its%20Work%20%C2%B7%2049%20min-FF0000?style=for-the-badge&logo=youtube&logoColor=white"></a>
+  <a href="https://youtu.be/pefnyZ-oCcM"><img alt="Watch Show Its Work, the 49-minute film, on YouTube" src="https://img.shields.io/badge/Watch-Show%20Its%20Work%20%C2%B7%2049%20min-FF0000?style=for-the-badge&logo=youtube&logoColor=white"></a>
 </p>
 
 I research Tsetlin Machines at [CAIR](https://cair.uia.no), University of Agder: models whose every decision is a set of logical clauses you can read, check and argue with. Outside the lab I build game-playing agents, data warehouses and apps that run entirely in your browser. I am also CFO at [SafeMediAI](https://safemediai.com), and in 2025 my bachelor thesis team at NTNU won the [Eurekaprisen](https://nyheter.ntnu.no/disse-har-vunnet-eurekaprisen-2025/#:~:text=Automatic%20Removal%20of%20Sensitive%20Content,Yasin%20Hessnawi).
@@ -45,10 +45,10 @@ Press the pins on [my website](https://anwardebes.github.io), try to sneak a pro
 
 ## The long version, in 49 minutes
 
-<a href="https://youtu.be/AAQG61EsGcM"><img src="assets/preview-film.webp" width="100%" alt="Show Its Work: Pixie acting out reading, searching, editing and running on a wall of steel pins. Click to watch the 49-minute film on YouTube."></a>
+<a href="https://youtu.be/pefnyZ-oCcM"><img src="assets/preview-film.webp" width="100%" alt="Show Its Work: Pixie acting out reading, searching, editing and running on a wall of steel pins. Click to watch the 49-minute film on YouTube."></a>
 
 **[Show Its Work](https://github.com/AnwarDebes/anwar-debes-film)** walks through all 66 of my repositories in fourteen chapters, with Pixie as the guide. Every number on screen carries the repository, file and line it came from, and in the last chapter the film checks its own sources: [541 of them, hash-chained](https://anwardebes.github.io/ledger/), rebuilt from fresh clones by one command.<br>
-<sub>[Watch it on YouTube](https://youtu.be/AAQG61EsGcM) · [Download it](https://github.com/AnwarDebes/anwar-debes-film/releases/latest) · [Chapters](https://github.com/AnwarDebes/anwar-debes-film#chapters) · [The ledger](https://anwardebes.github.io/ledger/) · Shorts on [YouTube](https://www.youtube.com/@anwardebes/shorts) and [TikTok](https://www.tiktok.com/@anwardebes)</sub>
+<sub>[Watch it on YouTube](https://youtu.be/pefnyZ-oCcM) · [Download it](https://github.com/AnwarDebes/anwar-debes-film/releases/latest) · [Chapters](https://github.com/AnwarDebes/anwar-debes-film#chapters) · [The ledger](https://anwardebes.github.io/ledger/) · Shorts on [YouTube](https://www.youtube.com/@anwardebes/shorts) and [TikTok](https://www.tiktok.com/@anwardebes)</sub>
 
 ## Spotlight: Pixie, a coding agent you can watch work
 
