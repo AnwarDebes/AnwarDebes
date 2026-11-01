@@ -7,15 +7,21 @@
   </picture>
 </a>
 
+<p>
+  <a href="https://www.youtube.com/@anwardebes"><img alt="YouTube: @anwardebes" src="https://img.shields.io/badge/YouTube-%40anwardebes-FF0000?style=for-the-badge&logo=youtube&logoColor=white"></a>
+  <a href="https://www.tiktok.com/@anwardebes"><img alt="TikTok: @anwardebes" src="https://img.shields.io/badge/TikTok-%40anwardebes-000000?style=for-the-badge&logo=tiktok&logoColor=white"></a>
+  <a href="https://youtu.be/AAQG61EsGcM"><img alt="Watch Show Its Work, the 49-minute film, on YouTube" src="https://img.shields.io/badge/Watch-Show%20Its%20Work%20%C2%B7%2049%20min-FF0000?style=for-the-badge&logo=youtube&logoColor=white"></a>
+</p>
+
 I research Tsetlin Machines at [CAIR](https://cair.uia.no), University of Agder: models whose every decision is a set of logical clauses you can read, check and argue with. Outside the lab I build game-playing agents, data warehouses and apps that run entirely in your browser. I am also CFO at [SafeMediAI](https://safemediai.com), and in 2025 my bachelor thesis team at NTNU won the [Eurekaprisen](https://nyheter.ntnu.no/disse-har-vunnet-eurekaprisen-2025/#:~:text=Automatic%20Removal%20of%20Sensitive%20Content,Yasin%20Hessnawi).
 
 Press the pins on [my website](https://anwardebes.github.io), try to sneak a prompt past [my guardrail](https://anwardebes.github.io/#demo), turn the [research map](https://anwardebes.github.io/universe/) in 3D, or open [a whole desktop in your browser](https://anwardebes.github.io/PocketOS/).
 
 ## The short version, in 105 seconds
 
-https://github.com/user-attachments/assets/7569e430-c8dc-4c50-acdd-03e4f3cd2ba9
+<a href="https://youtu.be/AvUR9k-FU8s"><img src="assets/preview-reel.webp" width="100%" alt="The 105-second film: a portrait of Anwar Debes forming in a wall of steel pins. Click to watch it with sound on YouTube."></a>
 
-<sub>A wall of steel pins plays every scene, every word is written on screen the moment it is spoken, and the last frame is a QR code made of pins: scan it.</sub>
+<sub>▶ [Watch it with sound on YouTube](https://youtu.be/AvUR9k-FU8s). A wall of steel pins plays every scene, every word is written on screen the moment it is spoken, and the last frame is a QR code made of pins: scan it.</sub>
 
 <details>
 <summary><b>Read the transcript</b></summary>
@@ -39,14 +45,16 @@ https://github.com/user-attachments/assets/7569e430-c8dc-4c50-acdd-03e4f3cd2ba9
 
 ## The long version, in 49 minutes
 
-<a href="https://github.com/AnwarDebes/anwar-debes-film"><img src="assets/film-long.jpg" width="100%" alt="Show Its Work: the title card, set in a wall of steel pins, with Pixie in the corner."></a>
+<a href="https://youtu.be/AAQG61EsGcM"><img src="assets/preview-film.webp" width="100%" alt="Show Its Work: Pixie acting out reading, searching, editing and running on a wall of steel pins. Click to watch the 49-minute film on YouTube."></a>
 
 **[Show Its Work](https://github.com/AnwarDebes/anwar-debes-film)** walks through all 66 of my repositories in fourteen chapters, with Pixie as the guide. Every number on screen carries the repository, file and line it came from, and in the last chapter the film checks its own sources: [541 of them, hash-chained](https://anwardebes.github.io/ledger/), rebuilt from fresh clones by one command.<br>
-<sub>[Watch it](https://github.com/AnwarDebes/anwar-debes-film/releases/latest) · [Chapters](https://github.com/AnwarDebes/anwar-debes-film#chapters) · [The ledger](https://anwardebes.github.io/ledger/)</sub>
+<sub>[Watch it on YouTube](https://youtu.be/AAQG61EsGcM) · [Download it](https://github.com/AnwarDebes/anwar-debes-film/releases/latest) · [Chapters](https://github.com/AnwarDebes/anwar-debes-film#chapters) · [The ledger](https://anwardebes.github.io/ledger/) · Shorts on [YouTube](https://www.youtube.com/@anwardebes/shorts) and [TikTok](https://www.tiktok.com/@anwardebes)</sub>
 
 ## Spotlight: Pixie, a coding agent you can watch work
 
-https://github.com/user-attachments/assets/d4fe63eb-93f0-4408-9867-dc253bb104a8
+<a href="https://youtu.be/hGQPpCX1xEo"><img src="assets/preview-pixie.webp" width="100%" alt="Pixie, a coral pixel creature, acting out a coding agent's steps. Click to watch the 54-second film on YouTube."></a>
+
+<sub>▶ [Watch it with sound on YouTube](https://youtu.be/hGQPpCX1xEo)</sub>
 
 **[Claude Code, in motion](https://github.com/AnwarDebes/Claude-Code-In-Motion)** is my open-source coding agent for any model. Instead of a spinner, Pixie, a coral pixel creature, acts out every step: reading, searching, editing, running the tests. Nothing is edited or run until you say yes, it has zero runtime dependencies, and it runs on your own key. [Try the live demo](https://anwardebes.github.io/Claude-Code-In-Motion/) right in your browser, or install it with `npm i -g github:AnwarDebes/Claude-Code-In-Motion`.
 
@@ -58,7 +66,7 @@ https://github.com/user-attachments/assets/d4fe63eb-93f0-4408-9867-dc253bb104a8
 <tr>
 <td width="50%" valign="top">
 
-<a href="https://anwardebes.github.io/veritas/"><img src="assets/film-veritas.jpg" width="100%" alt="VERITAS: formal verification for AI guardrails"></a>
+<a href="https://anwardebes.github.io/veritas/"><img src="assets/preview-veritas.webp" width="100%" alt="VERITAS: formal verification for AI guardrails"></a>
 
 **[VERITAS](https://anwardebes.github.io/veritas/)**: a SAT solver in your tab checks a prompt-injection guard against every possible input, finds a bypass, repairs it and hands you a proof that a standard checker accepts.<br>
 <sub>[Open it live](https://anwardebes.github.io/veritas/) · [Watch the film](https://github.com/AnwarDebes/veritas#live-prover) · [Code and paper](https://github.com/AnwarDebes/veritas)</sub>
@@ -66,7 +74,7 @@ https://github.com/user-attachments/assets/d4fe63eb-93f0-4408-9867-dc253bb104a8
 </td>
 <td width="50%" valign="top">
 
-<a href="https://anwardebes.github.io/trace/"><img src="assets/film-trace.jpg" width="100%" alt="TRACE: a certifying runtime guardrail for AI agents"></a>
+<a href="https://anwardebes.github.io/trace/"><img src="assets/preview-trace.webp" width="100%" alt="TRACE: a certifying runtime guardrail for AI agents"></a>
 
 **[TRACE](https://anwardebes.github.io/trace/)**: every tool call looks innocent and the session is not. Monitors with a few hundred bytes of memory catch it, and a signed ledger shows any edit.<br>
 <sub>[Open it live](https://anwardebes.github.io/trace/) · [Watch the film](https://github.com/AnwarDebes/trace#live-demo) · [Code and paper](https://github.com/AnwarDebes/trace)</sub>
@@ -76,7 +84,7 @@ https://github.com/user-attachments/assets/d4fe63eb-93f0-4408-9867-dc253bb104a8
 <tr>
 <td width="50%" valign="top">
 
-<a href="https://anwardebes.github.io/candor/"><img src="assets/film-candor.jpg" width="100%" alt="CANDOR: interpretability by construction"></a>
+<a href="https://anwardebes.github.io/candor/"><img src="assets/preview-candor.webp" width="100%" alt="CANDOR: interpretability by construction"></a>
 
 **[CANDOR](https://anwardebes.github.io/candor/)**: a trained network that reads its input through named concepts and certifies every answer. Switch a concept off or plant a backdoor, and watch the certificate respond.<br>
 <sub>[Open it live](https://anwardebes.github.io/candor/) · [Watch the film](https://github.com/AnwarDebes/candor#the-glass-box) · [Code and paper](https://github.com/AnwarDebes/candor)</sub>
@@ -84,7 +92,7 @@ https://github.com/user-attachments/assets/d4fe63eb-93f0-4408-9867-dc253bb104a8
 </td>
 <td width="50%" valign="top">
 
-<a href="https://anwardebes.github.io/glassbox-lm/"><img src="assets/film-glassbox.jpg" width="100%" alt="glassbox-lm: measured steps toward a language model you can read"></a>
+<a href="https://anwardebes.github.io/glassbox-lm/"><img src="assets/preview-glassbox.webp" width="100%" alt="glassbox-lm: measured steps toward a language model you can read"></a>
 
 **[glassbox-lm](https://anwardebes.github.io/glassbox-lm/)**: ten public-domain books counted in your tab. Every next word is a sum of clause votes you can read, each traced to the page it was counted on.<br>
 <sub>[Open it live](https://anwardebes.github.io/glassbox-lm/) · [Watch the film](https://github.com/AnwarDebes/glassbox-lm#the-glass-box) · [Code and studies](https://github.com/AnwarDebes/glassbox-lm)</sub>
