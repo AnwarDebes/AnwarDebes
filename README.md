@@ -17,6 +17,14 @@ I research Tsetlin Machines at [CAIR](https://cair.uia.no), University of Agder:
 
 Press the pins on [my website](https://anwardebes.github.io), try to sneak a prompt past [my guardrail](https://anwardebes.github.io/#demo), turn the [research map](https://anwardebes.github.io/universe/) in 3D, or open [a whole desktop in your browser](https://anwardebes.github.io/PocketOS/).
 
+## New: Glassbox Studio, the coding agent that shows its work
+
+<a href="https://anwardebes.github.io/glassbox-studio/"><img src="assets/preview-glassbox-studio.webp" width="100%" alt="Glassbox Studio during its demo: the agent tries rm -rf ~/.cache, the guard blocks it before it runs, and Pixie holds up a stop sign. Click to open the live app."></a>
+
+<sub>▶ [Open the live app](https://anwardebes.github.io/glassbox-studio/) · [Watch the 1-minute demo](https://youtu.be/TJKM7-aPJ-U) · [Code](https://github.com/AnwarDebes/glassbox-studio)</sub>
+
+A code editor that runs entirely in your browser. A coding agent reads, searches, edits and tests your code, and before any of its tool calls runs, a small Tsetlin Machine allows it, asks you, or blocks it, and shows the clauses that decided. Pixie acts out every step, and every decision goes into a hash-chained ledger you can verify. Free, no account, MIT licensed.
+
 ## The short version, in 105 seconds
 
 <a href="https://youtu.be/AvUR9k-FU8s"><img src="assets/preview-reel.webp" width="100%" alt="The 105-second film: a portrait of Anwar Debes forming in a wall of steel pins. Click to watch it with sound on YouTube."></a>
