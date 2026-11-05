@@ -13,6 +13,8 @@
   <a href="https://youtu.be/pefnyZ-oCcM"><img alt="Watch Show Its Work, the 49-minute film, on YouTube" src="https://img.shields.io/badge/Watch-Show%20Its%20Work%20%C2%B7%2049%20min-FF0000?style=for-the-badge&logo=youtube&logoColor=white"></a>
 </p>
 
+<sub>▶ Watch: [Show Its Work, the 49-minute film](https://youtu.be/pefnyZ-oCcM) · [Glassbox Studio in 1 minute](https://youtu.be/TJKM7-aPJ-U) · [Shorts on TikTok](https://www.tiktok.com/@anwardebes)</sub>
+
 I research Tsetlin Machines at [CAIR](https://cair.uia.no), University of Agder: models whose every decision is a set of logical clauses you can read, check and argue with. Outside the lab I build game-playing agents, data warehouses and apps that run entirely in your browser. I am also CFO at [SafeMediAI](https://safemediai.com), and in 2025 my bachelor thesis team at NTNU won the [Eurekaprisen](https://nyheter.ntnu.no/disse-har-vunnet-eurekaprisen-2025/#:~:text=Automatic%20Removal%20of%20Sensitive%20Content,Yasin%20Hessnawi).
 
 Press the pins on [my website](https://anwardebes.github.io), try to sneak a prompt past [my guardrail](https://anwardebes.github.io/#demo), turn the [research map](https://anwardebes.github.io/universe/) in 3D, or open [a whole desktop in your browser](https://anwardebes.github.io/PocketOS/).
